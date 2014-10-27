@@ -126,23 +126,23 @@ getting a coin other than Monero working with this software.
 
 
 Copy the `config_example.json` file to `config.json` then overview each options and change any to match your preferred setup.
-
+/* DarkNetCoin (DNC) only, there is a well-worked 'config.json' file, use it. */
 
 Explanation for each field:
 ```javascript
 /* Used for storage in redis so multiple coins can share the same redis instance. */
 "coin": "monero",
 
-/* BBR ONLY - this name is hardcoded in testing for whether to perform 
+/* DNC ONLY - this name is hardcoded in testing for whether to perform 
 boolberry-specific functionality in pool code. (To be implemented. Only works for 
 bbr atm)*/
-/* "coin": "boolberry", */
+/* "coin": "darknetcoin", */
 
 /* Used for front-end display */
 "symbol": "MRO",
 
 /* BBR ONLY - */
-/* "symbol": "BBR", */
+/* "symbol": "DNC", */
 "logging": {
 
     "files": {
