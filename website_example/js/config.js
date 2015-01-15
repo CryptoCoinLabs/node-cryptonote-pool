@@ -16,7 +16,7 @@ var easyminerDownload = "darknetspace.org/download/";
 var simplewalletDownload = 'http://66.175.220.129/getting-started';
 
 /* darknetspace */
-var blockchainExplorer = "http://chainradar.com/dnc/block/"; 
+var blockchainExplorer = "http://chain.darknetspace.org/dnc/block/"; 
 
-var transactionExplorer = "http://chainradar.com/dnc/transaction/";
+var transactionExplorer = "http://chain.darknetspace.org/dnc/tx/";
 
